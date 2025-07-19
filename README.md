@@ -1,2 +1,78 @@
-# TESTE
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gepeto's Vibe</title>
+    <style>
+        body {
+            background: url('noite.jpeg') no-repeat center fixed;
+            background-size: cover;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+        h1 {
+            color: darkorchid;
+            background-color: deepskyblue;
+            padding: 10px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+        .video-container {
+            margin: 20px auto;
+            width: 60%;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 15px;
+            border-radius: 10px;
+        }
+        video {
+            width: 100%;
+            border-radius: 5px;
+        }
+        iframe{
+            margin: 10px auto;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 15px;
+            width: 40%;
+            border-radius: 10px;
+        }
+        a:hover {
+            color:red;
+        }
+        a:active {
+            color:cadetblue
+        }
+    </style>
+</head>
+<body>
+    <h1>Gepeto's Vibe</h1>
+    
+    <div class="video-container">
+        <h2>Video 1 - Trailer Kmetsu no Yaiba</h2>
+        <video controls>
+            <source src="Demon Slayer_ Kimetsu no Yaiba Trailer 1.mp4" type="video/mp4">
+            Seu navegador não suporta o elemento de vídeo.
+        </video>
+        <p>um mundo repleto de onis, onde o tangiro viaja e luta em busca da cura de sua irmâ</p>
+    </div>
+    
+    <div class="video-container">
+        <h2>Video 2 - sanemi vs giyui full fight</h2>
+        <a href="https://www.youtube.com/watch?v=tbNDqrfy75c&pp=ygUQdG9taW9rYSB4IHNhbmVtaQ%3D%3D" target="_blank"> vídeo</a> 
+        <p>Uma luta epica emocionante</p>
+    </div>
+
+    <div class="video-container">
+        <h2>Epissodios do Anime</h2>
+       <a href="localizaçâo.html">Assista alguns episódios</a>
+    </div>
+
+    </div class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/hngUsyPy4AU?si=vZRoWden3qmwi2bE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+</body>
+</html>
+
 
